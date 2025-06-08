@@ -30,16 +30,10 @@
 4. Build the project:
 
     ```bash
-    make
+    make package
     ```
 
-5. Install the tweak to the device (if required):
-
-    ```bash
-    make install
-    ```
-
-6. Restart the Epic Games Store and enjoy the removal of the 4GB RAM limitation!
+5. Restart the Epic Games Store and enjoy the removal of the 4GB RAM limitation!
 
 ## Usage
 Once the tweak is installed, the Epic Games Store will function without the 4GB RAM limitation, allowing you to run games that require larger amounts of memory.

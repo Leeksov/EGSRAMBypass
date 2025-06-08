@@ -1,0 +1,9 @@
+Package: com.leeskov.egsrambypass
+Name: EGSRAMBypass
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome RAM Bypass for Epic Games Store!
+Maintainer: leeksov
+Author: leeksov
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)

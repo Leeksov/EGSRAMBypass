@@ -19,8 +19,7 @@ int my_sysctlbyname(const char *name, void *oldp, size_t *oldlenp, void *newp, s
     }
     return orig_sysctlbyname(name, oldp, oldlenp, newp, newlen);
 }
-
-__attribute__((constructor)) static void tweak_init() {
-__attribute__
+__attribute__((constructor)) 
+static void tweak_init() {
     MSHookFunction((void *)sysctlbyname, (void *)my_sysctlbyname, (void **)&orig_sysctlbyname);
 }
